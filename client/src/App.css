@@ -1,0 +1,20 @@
+.battery-indicator {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: white;
+  font-family: monospace;
+  z-index: 10;
+}
+
+.battery-indicator__track {
+  width: 120px;
+  height: 14px;
+  border: 2px solid white;
+  margin-top: 4px;
+}
+
+.battery-indicator__fill {
+  height: 100%;
+  transition: width 0.2s linear;
+}
